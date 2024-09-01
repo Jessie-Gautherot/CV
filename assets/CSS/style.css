@@ -13,8 +13,6 @@ h1 , h2 , h3 , h4 {
 figure {
     width: 50px;
     height: 50px;
-    
-    
 }
 
 figure img {
@@ -25,6 +23,37 @@ figure img {
     border : 2px solid black;
     box-shadow: 3px, 3px, 3px, 2px, black;
     box-sizing: border-box;
+}
+
+header {
+    background-color: #782221;
     
-    
+}
+
+header div {
+    background-color: #2c1d27;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#red {
+    background-color: #782221;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
