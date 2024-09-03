@@ -65,11 +65,6 @@ address {
 
 /*MAIN*/
 
-h3 {
-    background-color: #dbc2a4;
-    padding-left: 10px;
-   
-}
 
 main {
     display: flex;
@@ -81,16 +76,42 @@ main {
 
 #red {
     background-color: #782221;
-    padding-right: 30px;
+    padding-right: 40px;
+    
+    width: 350px;
+    color: white;
+
 }
 
+#red section h3 {
+    background-color: #dbc2a4;
+    color: black;
+    
+
+}
+
+#red p {
+    text-align: justify;
+    text-indent: 20px;
+   margin-left: 20px;
+   /* margin-right: 10px;*/
+}
+
+
+
 #white {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 #white section h3 {
     border-left: 6px solid #782221;
+    background-color: #dbc2a4;
+    padding-left: 10px;
+    color: black;
 }
+
+
+
 
 /*FOOTER*/
 
