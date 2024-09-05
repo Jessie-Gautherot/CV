@@ -113,7 +113,6 @@ main {
     text-align: justify;
     text-indent: 20px;
     margin-left: 20px;
-   /* margin-right: 10px;*/
 }
 
 
@@ -154,11 +153,11 @@ footer img {
     margin-bottom: 20px;
 }
 
-/*section img :hover {
+div a :hover {
     opacity: 0.5;
     filter:alpha(opacity=50);
     -moz-opacity:0.5;
-}*/
+}
 
 
 
