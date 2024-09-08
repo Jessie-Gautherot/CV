@@ -50,9 +50,9 @@ header {
     background-color: #782221;
     display: flex;
     flex-direction: column;
-    margin: auto;
     align-items: center;
     justify-content: center;
+    
     color: white;
 }
 
@@ -99,7 +99,7 @@ main {
 #red {
     background-color: #782221;
     padding-right: 40px;
-    width: 280px;
+    width: 330px;
     color: white;
 }
 
@@ -117,8 +117,12 @@ main {
 
 
 #white {
-    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 40px;
+    width: 830px;
 }
+
 
 #white section h3 {
     border-left: 10px solid #782221;
@@ -127,6 +131,11 @@ main {
     padding-left: 10px;
     color: black;
     width: 100%;
+}
+
+#white section :hover {
+    border-right: 10px solid #782221;
+    
 }
 
 
