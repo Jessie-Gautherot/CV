@@ -32,7 +32,7 @@ body {
 figure {
     width: 100px;
     height: 100px;
-    padding-bottom: 10px;
+    margin-top: 35px;
 }
 
 figure img {
@@ -59,6 +59,11 @@ header a {
     text-decoration: none;
     color: white;
     margin: 20px;
+}
+
+h1 {
+    font-weight: lighter;
+    padding-top: 10px;
 }
 
 h2 {
@@ -98,7 +103,7 @@ main {
 #red {
     background-color: #782221;
     padding-right: 50px;
-    width: 330px;
+    width: 350px;
     color: white;
 }
 
@@ -119,7 +124,7 @@ main {
     display: flex;
     flex-direction: column;
     margin: 5px 50px;
-    width: 830px;
+    width: 810px;
 }
 
 
@@ -130,11 +135,6 @@ main {
     padding-left: 10px;
     color: black;
     width: 100%;
-}
-
-#white section :hover {
-    border-right: 10px solid #782221;
-    
 }
 
 
@@ -163,10 +163,7 @@ footer img {
 
 div a :hover {
     opacity: 0.5;
-    filter:alpha(opacity=50);
-    -moz-opacity:0.5;
 }
-
 
 
 small {
